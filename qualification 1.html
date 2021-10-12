@@ -1,0 +1,142 @@
+<html>
+<body>
+<center>
+<u>
+<h1>Student Admission Form<h1>
+</u>
+</center>
+<br>
+<br>
+<table>
+<form>
+       <tr><td> <input type="date"></td></tr><br><br>  
+       <tr><td> Student Name: <input type="name"placeholder= "enter text here" required> <br><br></td></tr>
+       <tr><td> Father  Name: <input type="name"placeholder= "enter text here" required> <br><br></td></tr>
+       <tr><td> Mother  Name: <input type="name"placeholder= "enter text here" required> <br><br></td></tr>
+       <tr><td> Permanent Adress: <input type="name"placeholder= "enter text here" required> <br><br></td></tr>
+       <tr><td> Present Adress : <input type="name"placeholder= "enter text here" required> <br><br></td></tr>
+       <tr><td>DATE OF BIRTH</td>
+        <td><select name="birthday-day" id="birthday-day">
+           <option value="1">Day</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+       </select>
+       <select name="birthday-month" id="birthday-month">
+           <option value="1">Month</option>
+           <option value="Sep">Sep</option>
+           <option value="Nov">Nov</option>
+       </select>
+       <select name="birthday-year" id="birthday-year">
+           <option value="1">Year</option>
+           <option value="2002">2002</option>
+           <option value="2003">2003</option>
+       </select><br><br></td></tr>
+   
+      <tr><td> <label for="EMAIL ID">EMAIL ID</label></td>
+       <td><input type="email" name="" id="email"> (11 digit numbers)<br><br></td></tr>
+       
+       <tr><td>Gender</td>
+   
+       <td><input type="radio" name="gender" id="Male">Mail
+       
+       <input type="radio" name="gender" id="Female">Femail</td></tr> 
+       <tr><td>ADDRESS</td>
+        <td><textarea name="ADDRESS" id="" cols="30" rows="10"></textarea><br><br></td></tr>
+    
+        <tr><td><label for="CITY">CITY</label></td>
+        <td><input type="text" name="" id="city" required>  (max 30 character a-z and A-Z) <br><br></td></tr>
+    
+       <tr> <td><label for="pin code">PIN CODE</label></td>
+        <td><input type="number" name="" id="pin code" required>  (6 digit number) <br><br></td></tr>
+    
+        <tr><td><label for="state">STATE</label></td>
+        <td><input type="text" name="" id="state" required>  (max 30 character a-z and A-Z) <br><br></td></tr>
+    
+      <tr><td>  <label for="country">COUNTRY</label></td>
+            <td><input type="text" name="COUNTRY" value="PAKISTAN" readonly="readonly"> <br><br></td></tr>
+    
+    
+         <tr>  <td>HOBBIES </td>
+    
+            <td><input type="checkbox" name="Hobbies-drawing" id="deawing">
+            <label for="drawing"></label>DRAWING
+    
+            <input type="checkbox" name="Hobbies-singing" id="singing">
+            <label for="singing">SINGING</label>
+    
+            <input type="checkbox" name="" id="dancing">
+            <label for="dncing">DANCING</label>
+    
+            <input type="checkbox" name="" id="skeching">
+           <label for="skeching">SKECHING</label>
+           <br>
+            <input type="checkbox" name="" id="other">
+           other
+            <input type="text" name="other hobbies" id="other"><br><br></td></tr>
+            
+       <tr><td> QUALIFICATION <br/><br/><br/><br/><br/><br/> <br/></tr>
+        <td>
+            <table>
+                <tr>
+                    <td align="center"><br>SI.NO.</br></td>
+                    <td align="center"> <br>Examination <br></td>
+                    <td align="center"> <br>Board </br></td>
+                    <td align="center"> <br>percentage </br></td>
+                    <td align="center"> <br>Year of passing </br></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>class x</td>
+                    <td><input type="text" name="Classx-Bord" maxlength="30"></td>
+                    <td><input type="text"name="Classx-percentage" maxlength="30"></td>
+                    <td><input type="text"name="Classx-Yrofpassing"maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class xII</td>
+                    <td><input type="text" name="ClassxII-Bord" maxlength="30"></td>
+                    <td><input type="text"name="ClassxII-percentage" maxlength="30"></td>
+                    <td><input type="text"name="ClassxII-Yrofpassing"maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="Graduation-Bord" id="" maxlength="30"></td>
+                    <td><input type="text" name="Graduation-percentage" id="" maxlength="30"></td>
+                    <td><input type="text" name="Graduation-Yrofpassing" id="" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Master</td>
+                    <td><input type="text" name="Mastre-Bord" id="" maxlength="30"></td>
+                    <td><input type="text" name="Mastre-percentage" id="" maxlength="30"></td>
+                    <td><input type="text" name="Mastre-Yrofpassing" id="" maxlength="30"></td>
+                    <tr>
+                        <td></td>
+                        <td align="center">(10 char max)</td>
+                        <td aline="center">(up 2 decimal)</td>
+                    </tr>
+            </table>
+        </td>
+       </tr>
+       <tr>
+           <td>COURSES <br/>APPLIED FOR</td>
+           <td>
+               <input type="radio" name="course-BCA" value="BCA">
+               BCA
+               <input type="radio" name="course-B.com" value="B.com">
+               B.com
+               <input type="radio" name="course-B.SC" value="B.SC">
+               B.SC
+           </td>
+       </tr>
+       <tr>
+           <td colspan="2" align="center">
+           <input type="submit" name="" id="" value="submit">
+           <input type="reset" name="" id="" value="resit">
+        </td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
